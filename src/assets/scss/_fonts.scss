@@ -1,0 +1,11 @@
+@mixin font-face($font-family, $url) {
+	@font-face {
+		font-family: '#{$font-family}';
+		src: url('#{$url}.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+}
+
+@include font-face('Montserrat-Medium','assets/fonts/Montserrat-Medium' );
+@include font-face('Montserrat-Regular','assets/fonts/Montserrat-Regular' );
