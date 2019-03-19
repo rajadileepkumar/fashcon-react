@@ -1,0 +1,11 @@
+@import './variables';
+
+@media(max-width:768px){
+    .mobile-collapse{
+        flex-grow: 0;
+        flex-basis:0;
+    }
+    .app-logo{
+        width: 10vw;
+    }
+}
